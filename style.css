@@ -34,9 +34,12 @@ li{
 .gap-3{
     gap: 3rem;
 }
+.gap-2{
+    gap: 2rem;
+}
 .wrapper{
     max-width: 1200px;
-    background:gold;
+    /* background:gold; */
     margin: auto;
     padding-inline: 1.5em;
 }
@@ -53,7 +56,7 @@ li{
     color: var(--gold);
 }
 .btn{
-    display: inline;
+    display: inline-block;    
     padding: .9rem 2rem;
     background:var(--gold);
     background: gold;
@@ -61,6 +64,12 @@ li{
     font-size: 1.1rem;
     color: var(--pure-white);
     box-shadow: rgba(0, 0, 0, 0.1) 0 2px 1px;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background: var(--lead);
+    color: var(--lead);
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px;
 }
 
 
