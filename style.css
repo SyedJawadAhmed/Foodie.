@@ -16,9 +16,57 @@ body{
 
 /* BASIC STYLING */
 
+a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--lead);
+}
+.flex{
+    display : flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.between{
+    justify-content: space-between;
+}
+.gap-3{
+    gap: 3rem;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    padding-inline: 1.5em;
+}
+
 /* HEADER STYLING */
 
+.navbar{
+    min-height: 14vh;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gold);
+}
+.btn{
+    display: inline;
+    padding: .9rem 2rem;
+    background:var(--gold);
+    background: gold;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    color: var(--pure-white);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 1px;
+}
+
+
 /* SECTIONS STYLING */
+
+
+
 
 /* FOOTER STYLING */
 
