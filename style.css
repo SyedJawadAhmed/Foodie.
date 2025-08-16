@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --lead:#212121 ; 
+    --gold:#f2bd12 ; 
+    --eye-ball:#fffdf7 ; 
+    --light-yellow:#fcf1cc ;
+    --pure-white:#fff ; 
+}
+body{
+    background: var(--eye-ball);
+}
+
+/* BASIC STYLING */
+
+/* HEADER STYLING */
+
+/* SECTIONS STYLING */
+
+/* FOOTER STYLING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
