@@ -36,6 +36,7 @@ li{
 }
 .wrapper{
     max-width: 1200px;
+    background:gold;
     margin: auto;
     padding-inline: 1.5em;
 }
