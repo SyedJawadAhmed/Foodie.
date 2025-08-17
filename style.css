@@ -243,6 +243,9 @@ h4{
     font-size: 1.7rem;
     color: var(--gold);
 }
+.order-card .btn{
+    margin-top: 0.4rem;
+}
 
 
 
