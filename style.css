@@ -51,6 +51,12 @@ li {
     margin: auto;
     padding-inline: 1.5em;
 }
+img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
 
 /* HEADER STYLING */
 
@@ -114,7 +120,10 @@ li {
 
 .hero-section {
     min-height: calc(100vh - 14vh);
-
+}
+.content,
+.hero-image{
+    flex: 1;
 }
 
 /* FOOTER STYLING */
