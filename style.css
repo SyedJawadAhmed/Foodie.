@@ -218,6 +218,20 @@ h3 {
 
 /* SECTION  2 */
 
+.order-card{
+    flex: 1;
+    flex-basis: 300px;
+    background: var(--pure-white);
+    border: .1rem solid var(--gold);
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0) 8px 8px 8px,
+        rgba(0, 0, 0, 0.20) 8px 8px 8px inset;
+
+}
+
+.order-card img{
+    width: 15rem;
+}
 
 
 
