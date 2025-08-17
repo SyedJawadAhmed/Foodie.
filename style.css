@@ -58,15 +58,28 @@ li {
     margin: auto;
     padding-inline: 1.5em;
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
     margin: auto;
     display: block;
 }
-.p-top{
+
+.p-top {
     padding-top: 10rem;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4{
+    margin-top: 4rem;
+}
+
+
+
 /* HEADER STYLING */
 
 .navbar {
@@ -130,29 +143,36 @@ img{
 .hero-section {
     min-height: calc(100vh - 14vh);
 }
+
 .content,
-.hero-image{
+.hero-image,
+.service-card {
     flex: 1;
     flex-basis: 300px;
 }
-h1{
+
+h1 {
     font-size: 5.3vw;
     color: var(--lead);
 }
+
 h1 span {
     color: var(--gold);
 }
-p{
+
+p {
     font-size: 1.25rem;
     color: grey;
     line-height: 1.8rem;
     font-weight: 400;
 }
-.para{
+
+.para {
     margin-block: 2rem;
     max-width: 550px;
 }
-.social-icon{
+
+.social-icon {
     background: var(--light-yellow);
     width: 3rem;
     aspect-ratio: 1/1;
@@ -163,14 +183,43 @@ p{
     box-shadow: rgb(0, 0, 0) 2px 2px 2px;
     transition: .3s ease-in-out;
 }
+
 .social-icon:hover {
     background: var(--lead);
     color: var(--pure-white);
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.274) 2px 2px 2px inset ;
-     /* rgba(0, 0, 0, 0.274) 2px 2px 2px inset; */
-
+    box-shadow: rgba(0, 0, 0, 0.274) 2px 2px 2px inset;
+    /* rgba(0, 0, 0, 0.274) 2px 2px 2px inset; */
 }
+
+/* SECTION  1 */
+
+h5 {
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    color: var(--gold);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3.7rem;
+    text-transform: capitalize;
+    /* font-family: "Sansita", sans-serif; */
+}
+
+h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.service-card h3{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
 
 /* FOOTER STYLING */
 
@@ -229,6 +278,7 @@ p{
         transition: all .5s ease-in-out;
         /* z-index: 1000; */
     }
+
     .mobile-menu-active {
         left: 50%;
         transform: translateX(-50%);
@@ -236,17 +286,25 @@ p{
 
     /* SECTIONS STYILING */
 
-    h1{
+    h1 {
         font-size: 3.6rem;
     }
 
-    .content{
-        padding-top: 3rem; 
+    .content {
+        padding-top: 3rem;
     }
-    .gap-2{
+
+    .gap-2 {
         gap: 1.2rem;
     }
-    .gap-4{
+
+    .gap-4 {
         gap: 4rem;
     }
-} 
+
+    /* SECTION 01 STYLING */
+
+    h2{
+        font-size: 3rem;
+    }
+}
