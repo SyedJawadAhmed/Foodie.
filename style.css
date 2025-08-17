@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+    /* font-family: "Sansita", sans-serif; */
+    /* border: .2rem solid rgb(235, 8, 8); */
 }
+
 
 :root {
     --lead: #212121;
@@ -27,6 +33,7 @@ a {
 .flex {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 li {
@@ -124,6 +131,43 @@ img{
 .content,
 .hero-image{
     flex: 1;
+    flex-basis: 300px;
+}
+h1{
+    font-size: 5.3vw;
+    color: var(--lead);
+}
+h1 span {
+    color: var(--gold);
+}
+p{
+    font-size: 1.25rem;
+    color: grey;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+.para{
+    margin-block: 2rem;
+    max-width: 550px;
+}
+.social-icon{
+    background: var(--light-yellow);
+    width: 3rem;
+    aspect-ratio: 1/1;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 3rem;
+    box-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    transition: .3s ease-in-out;
+}
+.social-icon:hover {
+    background: var(--lead);
+    color: var(--pure-white);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.274) 2px 2px 2px inset ;
+     /* rgba(0, 0, 0, 0.274) 2px 2px 2px inset; */
+
 }
 
 /* FOOTER STYLING */
@@ -151,6 +195,8 @@ img{
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 780px) {
+
+    /* HEADER STYLING */
 
     .navlinks,
     .desk-action .btn {
@@ -185,4 +231,20 @@ img{
         left: 50%;
         transform: translateX(-50%);
     }
-}
+
+    /* SECTIONS STYILING */
+
+    h1{
+        font-size: 3.6rem;
+    }
+
+    .content{
+        padding-top: 3rem; 
+    }
+    .gap-2{
+        gap: 1.2rem;
+    }
+    .gap-4{
+        gap: 4rem;
+    }
+} 
