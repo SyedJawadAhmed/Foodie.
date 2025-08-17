@@ -69,13 +69,15 @@ img {
 .p-top {
     padding-top: 5rem;
 }
-
 .text-center {
     text-align: center;
 }
 
 .mt-4{
     margin-top: 4rem;
+}
+.mt-1{
+    margin-top: 1rem;
 }
 
 
@@ -221,8 +223,9 @@ h3 {
 .order-card{
     flex: 1;
     flex-basis: 200px;
+    padding: 0 1rem 2rem 1rem;
     background: var(--pure-white);
-    border: .1rem solid var(--gold);
+    border: .2rem solid var(--gold);
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0) 8px 8px 8px,
         rgba(0, 0, 0, 0.20) 8px 8px 8px inset;
@@ -231,6 +234,14 @@ h3 {
 
 .order-card img{
     width: 15rem;
+}
+h4{
+    font-size: 1.6rem;
+    color: var(--lead);
+}
+.order-card .price{
+    font-size: 1.7rem;
+    color: var(--gold);
 }
 
 
