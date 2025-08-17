@@ -234,6 +234,7 @@ h3 {
 
 .order-card img{
     width: 15rem;
+    filter: drop-shadow(rgba(0, 0, 0, 0.26) 0px 10px 10px);
 }
 h4{
     font-size: 1.6rem;
@@ -247,7 +248,7 @@ h4{
     margin-top: 0.4rem;
 }
 
-
+/* SECTION 3 */
 
 
 
