@@ -64,7 +64,9 @@ img{
     margin: auto;
     display: block;
 }
-
+.p-top{
+    padding-top: 10rem;
+}
 /* HEADER STYLING */
 
 .navbar {
