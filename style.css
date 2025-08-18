@@ -269,6 +269,11 @@ h4 {
     width: 650px;
     max-width: 100%;
     flex: 1;
+    transition: .3s ease-in-out;
+}
+.review-box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 .swiper {
     width: 100%;
