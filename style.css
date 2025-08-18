@@ -69,14 +69,16 @@ img {
 .p-top {
     padding-top: 5rem;
 }
+
 .text-center {
     text-align: center;
 }
 
-.mt-4{
+.mt-4 {
     margin-top: 4rem;
 }
-.mt-1{
+
+.mt-1 {
     margin-top: 1rem;
 }
 
@@ -213,14 +215,15 @@ h3 {
     font-size: 2rem;
     text-transform: capitalize;
 }
-.service-card h3{
+
+.service-card h3 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
 
 /* SECTION  2 */
 
-.order-card{
+.order-card {
     flex: 1;
     flex-basis: 200px;
     padding: 0 1rem 2rem 1rem;
@@ -232,25 +235,31 @@ h3 {
 
 }
 
-.order-card img{
+.order-card img {
     width: 15rem;
     filter: drop-shadow(rgba(0, 0, 0, 0.26) 0px 10px 10px);
 }
-h4{
+
+h4 {
     font-size: 1.6rem;
     color: var(--lead);
 }
-.order-card .price{
+
+.order-card .price {
     font-size: 1.7rem;
     color: var(--gold);
 }
-.order-card .btn{
+
+.order-card .btn {
     margin-top: 0.4rem;
 }
 
 /* SECTION 3 */
 
-
+.swiper {
+    width: 100%;
+    height: 100%;
+}
 
 /* FOOTER STYLING */
 
@@ -335,7 +344,7 @@ h4{
 
     /* SECTION 01 STYLING */
 
-    h2{
+    h2 {
         font-size: 3rem;
     }
 }
