@@ -269,12 +269,12 @@ h4 {
     width: 650px;
     max-width: 100%;
     flex: 1;
-    transition: .3s ease-in-out;
+    /* transition: .3s ease-in-out; */
 }
-.review-box:hover {
+/* .review-box:hover {
     cursor: pointer;
     transform: scale(1.05);
-}
+} */
 .swiper {
     width: 100%;
     height: 100%;
@@ -293,7 +293,15 @@ h4 {
 .fa-star{
     color: var(--gold);
 }
-
+.arrow{
+    width: 2.5rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    border: var(--gold);
+    color: var(--lead);
+    text-align: center;
+    line-height: 2.5rem;
+}
 
 /* FOOTER STYLING */
 
