@@ -295,9 +295,9 @@ h4 {
 }
 .arrow{
     width: 2.5rem;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     border-radius: 100vw;
-    border: var(--gold);
+    background: var(--gold);
     color: var(--lead);
     text-align: center;
     line-height: 2.5rem;
