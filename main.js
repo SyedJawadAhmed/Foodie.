@@ -1,6 +1,6 @@
 
 var swiper = new Swiper(".mySwiper", {
-    // loop: true,
+    loop: true,
     // autoplay: {
     //     delay: 3000,
     //     disableOnInteraction: false,
