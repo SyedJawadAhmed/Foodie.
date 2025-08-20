@@ -308,6 +308,20 @@ h4 {
     padding: 3rem 6rem;
     border-radius: 3rem;
 }
+.app-box h2{
+    font-size: 2.5rem;
+    color: var(--gold);
+}
+.app-box h5{
+    font-size: 3.5rem;
+    color: var(--lead);
+}
+.app-box .app-img img{
+    width: 25rem;
+}
+.app-img{
+    flex: 1;
+}
 
 
 
