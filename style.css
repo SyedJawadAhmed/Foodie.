@@ -363,7 +363,11 @@ input[type="email"]:focus {
 
 /* FOOTER STYLING */
 
-
+.footer-box{
+    margin-top: 10rem;
+    padding-block: 4rem;
+    background: rgb(255, 255, 138);
+}
 
 
 
