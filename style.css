@@ -342,7 +342,8 @@ h4 {
 .input-box {
     width: 43rem;
     max-width: 100%;
-    background:gold;
+    background:var(--pure-white);
+    padding: .8rem;
 }
 input[type="email"] {
     flex: 1;
@@ -351,6 +352,9 @@ input[type="email"] {
     border: none;
     font-size: 1.1rem;
     padding-left: 1rem;
+}
+input[type="email"]:focus {
+    
 }
 
 
