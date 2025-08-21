@@ -354,7 +354,7 @@ input[type="email"] {
     padding-left: 1rem;
 }
 input[type="email"]:focus {
-    
+    outline:2px yellowgreen;
 }
 
 
