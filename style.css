@@ -368,16 +368,13 @@ input[type="email"]:focus {
 
 /* FOOTER STYLING */
 
-.footer-box{
+.footer-box {
     margin-top: 5rem;
     padding-block: 4rem;
     background: rgb(255, 255, 138);
 }
-.footer-wrapper{
+.footer-wrapper {
     flex: 1;
-}
-.footer-wrapper .social-icon{
-    
 }
 
 
