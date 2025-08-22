@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "Acme", sans-serif;
     /* font-family: "Sansita", sans-serif; */
-    /* border: .2rem solid rgb(235, 8, 8); */
+    border: .2rem solid rgb(235, 8, 8);
 }
 
 
@@ -376,6 +376,13 @@ input[type="email"]:focus {
 .footer-wrapper {
     flex: 1;
 }
+/* .footer-pa{
+    color: grey;
+    line-height: 1.8rem;
+    font-weight: 400;
+    max-width: 20rem;
+    margin-top: 1.5rem;
+} */
 .footer-link{
     color:rgb(85, 85, 85) ;
     font-size: 1.1rem;
