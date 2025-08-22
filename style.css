@@ -377,12 +377,12 @@ input[type="email"]:focus {
     flex: 1;
 }
 .footer-link{
-    color: var(--lead);
+    color:rgb(85, 85, 85) ;
     font-size: 1.1rem;
     transition: .3s ease-in-out;
 }
 .footer-link:hover {
-    color: var(--gold);
+    color: var(--lead);
 
 }
 
