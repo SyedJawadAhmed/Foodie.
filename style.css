@@ -376,6 +376,9 @@ input[type="email"]:focus {
 .footer-wrapper{
     flex: 1;
 }
+.footer-wrapper .social-icon{
+    
+}
 
 
 
