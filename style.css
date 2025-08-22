@@ -373,17 +373,22 @@ input[type="email"]:focus {
     padding-block: 4rem;
     background: rgb(255, 255, 163);
 }
-.footer-wrapper {
+.footer-wrapper  {
     flex: 1;
 }
+
 .footer-link{
     color:rgb(85, 85, 85) ;
     font-size: 1.1rem;
     transition: .3s ease-in-out;
 }
 .footer-link:hover {
-    color: var(--lead);
-
+    color: var(--eye-ball);
+    
+}
+.footer-wrapper p {
+    width:26rem;
+    border: 3px solid black;
 }
 
 
