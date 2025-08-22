@@ -373,7 +373,9 @@ input[type="email"]:focus {
     padding-block: 4rem;
     background: rgb(255, 255, 138);
 }
-.footer
+.footer-wrapper{
+    flex: 1;
+}
 
 
 
