@@ -97,6 +97,9 @@ img {
 .ml-2 {
     margin-left: 2rem;
 }
+.ml-4 {
+    margin-left: 4rem;
+}
 
 .ml-1 {
     margin-left: 1rem;
@@ -373,10 +376,15 @@ input[type="email"]:focus {
     padding-block: 4rem;
     background: rgb(255, 255, 163);
 }
+.footer-box .flex {
+    align-items: flex-start;
+}
 .footer-wrapper  {
     flex: 1;
 }
-
+/* .footer-wrapper :nth-child(0){
+    flex: 3;
+} */
 .footer-link{
     color:rgb(85, 85, 85) ;
     font-size: 1.1rem;
@@ -388,9 +396,13 @@ input[type="email"]:focus {
 }
 .footer-wrapper p {
     width:26rem;
-    border: 3px solid black;
 }
-
+.footer-wrapper li {
+    width: 10rem;
+}
+.footer-wrapper ul {
+    width: 10rem;
+}
 
 
 
