@@ -279,6 +279,11 @@ h4 {
 .order-card .btn {
     margin-top: 0.4rem;
 }
+/* CART TAB STYLLING */
+.cart-tab{
+    background: rgb(252, 252, 144);
+}
+
 
 /* SECTION 03 */
 
