@@ -383,8 +383,13 @@ input[type="email"]:focus {
 .footer-wrapper{
     flex: 1;
 }
-
-
+.footer-link{
+    color: gray;
+    font-size: 1.1rem;
+}
+.footer-link:hover{
+    color: var(--lead);
+}
 
 
 
