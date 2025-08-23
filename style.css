@@ -380,12 +380,21 @@ input[type="email"]:focus {
     padding-block: 4rem;
     background: rgb(252, 252, 144);
 }
+.footer-container .flex{
+    align-items: flex-start;
+}
 .footer-wrapper{
     flex: 1;
+    flex-basis: 150px;
+}
+.footer-wrapper:nth-child(1){
+    flex: 2;
+    flex-basis: 300px;
 }
 .footer-link{
     color: gray;
     font-size: 1.1rem;
+    transition: .5s ease-in-out;
 }
 .footer-link:hover{
     color: var(--lead);
