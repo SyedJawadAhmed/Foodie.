@@ -375,7 +375,11 @@ input[type="email"]:focus {
 
 /* FOOTER STYLING */
 
-
+.footer-container{
+    margin-top: 10rem;
+    padding-block: 4rem;
+    background: var(--light-yellow);
+}
 
 
 
@@ -527,7 +531,7 @@ input[type="email"]:focus {
     /* FOOTER RESPONSIVE */
 
 
-    
+
     /* .footer-box {
         padding-block: 2rem;
     }
