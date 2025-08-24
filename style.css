@@ -290,6 +290,8 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.432) -10px -10px 20px;
     /* border: 3px solid blue; */
 }
 .cart-list{
@@ -299,7 +301,7 @@ h4 {
     overflow: auto;
 }
 .cart-list::-webkit-scrollbar{
-    width: 2;
+    width: 0;
 }
 .total-container{
     width: 100%;
