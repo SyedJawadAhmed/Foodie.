@@ -282,6 +282,31 @@ h4 {
 /* CART TAB STYLLING */
 .cart-tab{
     background: rgb(252, 252, 144);
+    position: fixed;
+    inset: 0 0 0 auto;
+    width: 25rem;
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-list{
+    flex: 1;
+    width: 100%;
+
+}
+.total-container{
+    width: 100%;
+    background: var(--gold);
+    text-align: center;
+    margin-block: 1rem;
+    padding-block: 1rem;
+}
+.total-container h4{
+    display:inline-block;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 
