@@ -290,6 +290,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 3px solid blue;
 }
 .cart-list{
     flex: 1;
@@ -305,15 +306,27 @@ h4 {
 }
 .total-container h4{
     display:inline-block;
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1.3rem; 
+    font-weight: 400;
 }
 .btn-container .btn{
     background: var(--lead);
+    transition: .5s ease-in-out;
 }
+.btn-container .btn:hover{
+    background: var(--gold);
+    color: var(--lead);
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
 
-
-
+}
+.item .image-container img{
+    width: 5rem;
+}
 
 /* SECTION 03 */
 
