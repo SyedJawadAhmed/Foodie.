@@ -337,11 +337,11 @@ h4 {
 .quantity-btn{
     background: var(--lead);
     color: var(--pure-white);
-    width: 1.7rem;
+    width: 1.6rem;
     aspect-ratio: 1;
     border-radius: 100vw;
     text-align: center;
-    line-height: 1.7rem;
+    line-height: 1.5rem;
 }
 .quantity-value{
     font-size: 1.2rem;
