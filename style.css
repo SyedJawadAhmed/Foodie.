@@ -284,7 +284,7 @@ h4 {
     background: rgb(252, 252, 144);
     position: fixed;
     inset: 0 0 0 auto;
-    width: 25rem;
+    width: 29rem;
     padding-block: 2rem;
     display: flex;
     flex-direction: column;
@@ -297,6 +297,9 @@ h4 {
     width: 100%;
     margin-top: 1.5rem;
     overflow: auto;
+}
+.cart-list::-webkit-scrollbar{
+    width: 2;
 }
 .total-container{
     width: 100%;
