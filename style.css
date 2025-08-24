@@ -290,7 +290,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 .cart-list{
     flex: 1;
