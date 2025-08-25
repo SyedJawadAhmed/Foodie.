@@ -20,6 +20,21 @@ closeBtn.addEventListener("click",()=> cartTab.classList.remove('cart-tab-active
 
 let productList = [];
 
-const initApp = () =>{
-    fetch('products')
+const showCard = () =>{
+
+    productList.forEach(product =>{
+
+        const orderCard = document.createElement('div');
+        orderCard.classList.add('order-card');
+    })
 }
+
+const initApp = () =>{
+
+    fetch('products.json').then(response => response.json()).then(data =>{
+        productList = data;
+        console.log(productList);
+    })
+}
+
+initApp();
