@@ -283,7 +283,7 @@ h4 {
 .cart-tab{
     background: rgb(252, 252, 144);
     position: fixed;
-    inset: 0 0 0 auto;
+    inset: 0 -500px 0 auto;
     width: 29rem;
     padding-block: 2rem;
     display: flex;
