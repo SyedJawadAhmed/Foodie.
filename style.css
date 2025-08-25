@@ -469,7 +469,7 @@ input[type="email"]:focus {
     flex-basis: 300px;
 }
 .footer-link{
-    color: rgb(175, 175, 175);
+    color: gray;
     font-size: 1.1rem;
     transition: .5s ease-in-out;
 }
