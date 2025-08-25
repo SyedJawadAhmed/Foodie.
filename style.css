@@ -301,7 +301,7 @@ h4 {
     overflow: auto;
 }
 .cart-list::-webkit-scrollbar{
-    width: 0;
+    width: 1;
 }
 .total-container{
     width: 100%;
@@ -328,6 +328,9 @@ h4 {
     align-items: center;
     justify-content: center;
     gap: .9rem;
+}
+.cart-list .item:nth-child(even){
+    background: var(--eye-ball);
 }
 .item .image-container img{
     width: 5rem;
