@@ -10,3 +10,6 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: "#Prev",
     },
 });
+
+const cartIcon = document.querySelector(".cart-icon");
+const cartTab = document.querySelector(".cart-tab");
