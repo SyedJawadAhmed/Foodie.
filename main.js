@@ -47,7 +47,7 @@ const initApp = () => {
         .then(response => response.json())
         .then(data => {
             productList = data;
-            showCard(); // <-- Add this line
+            showCard(); 
         });
 }
 
