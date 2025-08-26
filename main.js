@@ -74,13 +74,13 @@ const addToCart = (product) => {
         </div>
     `;
 
-     if (cartList) {
-        cartList.appendChild(cartItem);
-    } else {
-        console.error('cartList element not found');
-    }
+    //  if (cartList) {
+    //     cartList.appendChild(cartItem);
+    // } else {
+    //     console.error('cartList element not found');
+    // }
 
-    // cartList.appendChild(cartItem);
+    cartList.appendChild(cartItem);
 }
 
 const initApp = () => {
