@@ -60,7 +60,7 @@ const addToCart = (product) => {
            <img src="${product.image}">
         </div>
         <div>
-            h4>${product.name}</h4>
+            <h4>${product.name}</h4>
             <h4 class="item-total">${product.price}</h4>
         </div>
         <div class="flex">
@@ -74,7 +74,13 @@ const addToCart = (product) => {
         </div>
     `;
 
-    cartList.appendChild(cartItem);
+     if (cartList) {
+        cartList.appendChild(cartItem);
+    } else {
+        console.error('cartList element not found');
+    }
+
+    // cartList.appendChild(cartItem);
 }
 
 const initApp = () => {
