@@ -16,7 +16,7 @@ const cartTab = document.querySelector('.cart-tab');
 const closeBtn = document.querySelector('.Close-btn');
 const cardList = document.querySelector('.card-list');
 
- 
+
 cartIcon.addEventListener("click", () => cartTab.classList.add('cart-tab-active'));
 closeBtn.addEventListener("click", () => cartTab.classList.remove('cart-tab-active'));
 
@@ -24,7 +24,7 @@ let productList = [];
 
 const showCard = () => {
 
-    productList.forEach(product =>{
+    productList.forEach(product => {
 
         const orderCard = document.createElement('div');
         orderCard.classList.add('order-card');
@@ -37,7 +37,7 @@ const showCard = () => {
             <h4 class="price">${product.price}</h4>
             <a href="#" class="btn card-btn">Add To Cart</a>
         `;
-        
+
         cardList.appendChild(orderCard);
 
         const cardBtn = orderCard.querySelector('.card-btn');
@@ -55,12 +55,22 @@ const addToCart = (product) => {
     cartItem.classList.add('item');
 
     cartItem.innerHTML = `
-        <img src="${product.image}" alt="${product.name}">
-        <div class="item-details">
-            <h4>${product.name}</h4>
-            <p class="price">${product.price}</p>
+        <div class="image-container">
+           <img src="images/burger.png">
         </div>
-        <button class="remove-btn">Remove</button>
+        <div>
+            h4>Doubble Beef Burger</h4>
+            <h4 class="item-total">$200</h4>
+        </div>
+        <div class="flex">
+            <a href="#" class="quantity-btn">
+                <i class="fa-solid fa-minus"></i>
+            </a>
+            <h4 class="quantity-value">1</h4>
+            <a href="#" class="quantity-btn">
+                <i class="fa-solid fa-plus"></i>
+            </a>
+        </div>
     `;
 }
 
@@ -69,7 +79,7 @@ const initApp = () => {
         .then(response => response.json())
         .then(data => {
             productList = data;
-            showCard(); 
+            showCard();
         });
 }
 
