@@ -35,10 +35,18 @@ const showCard = () => {
             </div>
             <h4>${product.name}</h4>
             <h4 class="price">${product.price}</h4>
-            <a href="#" class="btn">Add To Cart</a>
+            <a href="#" class="btn card-btn">Add To Cart</a>
         `;
         
         cardList.appendChild(orderCard);
+
+        const cardBtn = orderCard.querySelector('.card-btn');
+        cardBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            alert(`${product.name} added to cart!`);
+        });
+
+
     })
 }
 
