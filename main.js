@@ -90,9 +90,13 @@ const addToCart = (product) => {
 
     const minusBtn = cartItem.querySelector('.minus');
     const plusBtn = cartItem.querySelector('.plus');
+    const quantityValue = cartItem.querySelector('.quantity-value');
 
-    plusBtn.addEventListener('click', () => {
-        
+    plusBtn.addEventListener('click', (e) => {
+
+        e.preventDefault();
+        quantity++;
+        quantityValue.textContent = quantity;
     });
 }
 
