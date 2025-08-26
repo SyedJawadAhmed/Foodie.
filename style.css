@@ -336,8 +336,18 @@ h4 {
 .cart-list .item:nth-child(even){
     background: var(--eye-ball);
 }
+.item .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 5rem;
+    min-height: 5rem;
+}
 .item .image-container img{
     width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    display: block;
 }
 .item h4{
     font-size: 400;
