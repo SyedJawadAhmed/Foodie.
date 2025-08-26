@@ -300,7 +300,7 @@ h4 {
 }
 .cart-list{
     flex: 1;
-    width: 0;
+    width: 90%;
     margin-top: 1.5rem;
     overflow: auto;
 }
