@@ -31,10 +31,10 @@ const showCard = () => {
 
         orderCard.innerHTML = `
             <div class="card-image">
-                <img src="images/burger.png" alt="">
+                <img src="${product.image}">
             </div>
-            <h4>Doubble Beef Burger</h4>
-            <h4 class="price">$200</h4>
+            <h4>${product.name}</h4>
+            <h4 class="price">${product.price}</h4>
             <a href="#" class="btn">Add To Cart</a>
         `;
         
