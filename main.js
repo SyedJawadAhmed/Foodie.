@@ -15,6 +15,7 @@ const cartIcon = document.querySelector('.cart-icon');
 const cartTab = document.querySelector('.cart-tab');
 const closeBtn = document.querySelector('.Close-btn');
 const cardList = document.querySelector('.card-list');
+const cartList = document.querySelector('.cart-list');
 
 
 cartIcon.addEventListener("click", () => cartTab.classList.add('cart-tab-active'));
@@ -43,7 +44,7 @@ const showCard = () => {
         const cardBtn = orderCard.querySelector('.card-btn');
         cardBtn.addEventListener('click', (e) => {
             e.preventDefault();
-            alert(`${product.name} added to cart!`);
+            addToCart(product);
         });
 
 
@@ -56,11 +57,11 @@ const addToCart = (product) => {
 
     cartItem.innerHTML = `
         <div class="image-container">
-           <img src="images/burger.png">
+           <img src="${product.image}">
         </div>
         <div>
-            h4>Doubble Beef Burger</h4>
-            <h4 class="item-total">$200</h4>
+            h4>${product.name}</h4>
+            <h4 class="item-total">${product.price}</h4>
         </div>
         <div class="flex">
             <a href="#" class="quantity-btn">
@@ -72,6 +73,8 @@ const addToCart = (product) => {
             </a>
         </div>
     `;
+
+    cartList.appendChild(cartItem);
 }
 
 const initApp = () => {
