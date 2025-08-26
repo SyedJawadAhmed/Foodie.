@@ -47,7 +47,21 @@ const showCard = () => {
         });
 
 
-    })
+    });
+};
+
+const addToCart = (product) => {
+    const cartItem = document.createElement('div');
+    cartItem.classList.add('item');
+
+    cartItem.innerHTML = `
+        <img src="${product.image}" alt="${product.name}">
+        <div class="item-details">
+            <h4>${product.name}</h4>
+            <p class="price">${product.price}</p>
+        </div>
+        <button class="remove-btn">Remove</button>
+    `;
 }
 
 const initApp = () => {
