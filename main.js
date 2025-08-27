@@ -16,6 +16,7 @@ const cartTab = document.querySelector('.cart-tab');
 const closeBtn = document.querySelector('.Close-btn');
 const cardList = document.querySelector('.card-list');
 const cartList = document.querySelector('.cart-list');
+const cartTotal = document.querySelector('.cart-total');
 
 
 cartIcon.addEventListener("click", () => cartTab.classList.add('cart-tab-active'));
@@ -23,6 +24,19 @@ closeBtn.addEventListener("click", () => cartTab.classList.remove('cart-tab-acti
 
 let productList = [];
 let cartProduct = [];
+
+const updateTotals = () => {
+    let totalPrice = 0;
+
+    document.querySelectorAll('.item').forEach(item => {
+
+        const price = parseFloat(item.querySelector('.item-total').textContent.replace('$', ''));
+        totalPrice += price;
+    });
+
+    cartTotal.textContent = `$${totalPrice.toFixed(2)}`;
+};
+
 
 const showCard = () => {
 
