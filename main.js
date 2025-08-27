@@ -63,7 +63,9 @@ const addToCart = (product) => {
 
     cartProduct.push(product);
 
-    let quantity = 0;
+    let quantity = 1;
+    let price = parseFloat(product.price.replace('$', '')) ;
+    let total = (price * quantity).toFixed(2);
 
     const cartItem = document.createElement('div');
     cartItem.classList.add('item');
@@ -91,12 +93,14 @@ const addToCart = (product) => {
     const minusBtn = cartItem.querySelector('.minus');
     const plusBtn = cartItem.querySelector('.plus');
     const quantityValue = cartItem.querySelector('.quantity-value');
+    const itemTotal = cartItem.querySelector('.item-total');
 
     plusBtn.addEventListener('click', (e) => {
 
         e.preventDefault();
         quantity++;
         quantityValue.textContent = quantity;
+        itemTotal.textContent = `$${(price * quantity).toFixed(2)}`;  
     });
 
     minusBtn.addEventListener('click', (e) => {
@@ -105,6 +109,7 @@ const addToCart = (product) => {
         if (quantity > 0) {
             quantity--;
             quantityValue.textContent = quantity;
+             itemTotal.textContent = `$${(price * quantity).toFixed(2)}`;  
         }
     });
 }
