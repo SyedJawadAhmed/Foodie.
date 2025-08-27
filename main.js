@@ -63,7 +63,7 @@ const addToCart = (product) => {
 
     cartProduct.push(product);
 
-    let quantity = 1;
+    let quantity = 0;
 
     const cartItem = document.createElement('div');
     cartItem.classList.add('item');
@@ -102,7 +102,7 @@ const addToCart = (product) => {
     minusBtn.addEventListener('click', (e) => {
 
         e.preventDefault();
-        if (quantity > 1) {
+        if (quantity > 0) {
             quantity--;
             quantityValue.textContent = quantity;
         }
