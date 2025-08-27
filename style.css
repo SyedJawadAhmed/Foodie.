@@ -334,8 +334,9 @@ h4 {
     gap: .9rem;
     transition: all .3s ease-in-out;
 }
-.item.out{
-    transform: translateX(50%);
+.item .out{
+    
+    transform: translateX(60%);
 }
 .cart-list .item:nth-child(even){
     background: var(--eye-ball);
