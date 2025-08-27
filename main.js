@@ -106,10 +106,14 @@ const addToCart = (product) => {
     minusBtn.addEventListener('click', (e) => {
 
         e.preventDefault();
-        if (quantity > 1) {
+        if (quantity > 0) {
             quantity--;
             quantityValue.textContent = quantity;
             itemTotal.textContent = `$${(price * quantity).toFixed(2)}`;  
+        }
+        else (quantity < 1); {
+            cartList.removeChild(cartItem);
+            cartProduct = cartProduct.filter(item => item.id !== product.id);
         }
     });
 }
