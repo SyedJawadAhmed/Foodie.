@@ -98,6 +98,15 @@ const addToCart = (product) => {
         quantity++;
         quantityValue.textContent = quantity;
     });
+
+    minusBtn.addEventListener('click', (e) => {
+
+        e.preventDefault();
+        if (quantity > 1) {
+            quantity--;
+            quantityValue.textContent = quantity;
+        }
+    });
 }
 
 const initApp = () => {
