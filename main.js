@@ -111,7 +111,7 @@ const addToCart = (product) => {
             quantityValue.textContent = quantity;
             itemTotal.textContent = `$${(price * quantity).toFixed(2)}`;  
         }
-        else {
+        else (quantity > 1); {
             cartItem.remove();
             cartProduct = cartProduct.filter(item => item.id !== product.id);
         }
