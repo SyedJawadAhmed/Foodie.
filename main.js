@@ -134,6 +134,7 @@ const addToCart = (product) => {
             setTimeout(() => {
                 cartItem.remove();
                 cartProduct = cartProduct.filter(item => item.id !== product.id);
+                updateTotals();
             }, 300)
 
         }
