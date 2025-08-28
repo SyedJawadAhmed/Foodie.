@@ -332,9 +332,9 @@ h4 {
     align-items: center;
     justify-content: center;
     gap: .9rem;
-    transition: all .3s ease-in-out;
+    transition: all 1s ease-in-out;
 }
-.item .out{
+.item.out{
     
     transform: translateX(60%);
 }

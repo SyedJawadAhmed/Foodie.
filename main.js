@@ -104,6 +104,8 @@ const addToCart = (product) => {
     `;
     cartList.appendChild(cartItem);
 
+    updateTotals();
+
     const minusBtn = cartItem.querySelector('.minus');
     const plusBtn = cartItem.querySelector('.plus');
     const quantityValue = cartItem.querySelector('.quantity-value');
@@ -114,7 +116,8 @@ const addToCart = (product) => {
         e.preventDefault();
         quantity++;
         quantityValue.textContent = quantity;
-        itemTotal.textContent = `$${(price * quantity).toFixed(2)}`;  
+        itemTotal.textContent = `$${(price * quantity).toFixed(2)}`; 
+        updateTotals(); 
     });
 
     minusBtn.addEventListener('click', (e) => {
@@ -124,6 +127,7 @@ const addToCart = (product) => {
             quantity--;
             quantityValue.textContent = quantity;
             itemTotal.textContent = `$${(price * quantity).toFixed(2)}`;  
+            updateTotals();
         }
         else {
             cartItem.classList.add('out');
