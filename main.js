@@ -19,6 +19,7 @@ const cartList = document.querySelector('.cart-list');
 const cartTotal = document.querySelector('.cart-total');
 const cartValue = document.querySelector('.cart-value');
 const hamburger = document.querySelector('.hamburger');
+const mobile🧈Menu = document.querySelector('.mobile-menu');
 
 cartIcon.addEventListener("click", () => cartTab.classList.add('cart-tab-active'));
 closeBtn.addEventListener("click", () => cartTab.classList.remove('cart-tab-active'));
