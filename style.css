@@ -571,7 +571,7 @@ input[type="email"]:focus {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
 
     /* HEADER STYLING */
 
