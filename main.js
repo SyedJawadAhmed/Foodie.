@@ -28,12 +28,13 @@ let cartProduct = [];
 const updateTotals = () => {
 
     let totalPrice = 0;
-    
+    let totalQuantity = 0;
 
     document.querySelectorAll('.item').forEach(item => {
-
+        const quantity = parseInt(item.querySelector('.quantity-value').textContent);
         const price = parseFloat(item.querySelector('.item-total').textContent.replace('$', ''));
         totalPrice += price;
+        totalQuantity += quantity;
     });
 
     cartTotal.textContent = `$${totalPrice.toFixed(2)}`;
