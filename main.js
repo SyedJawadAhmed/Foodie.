@@ -26,7 +26,9 @@ let productList = [];
 let cartProduct = [];
 
 const updateTotals = () => {
+
     let totalPrice = 0;
+    
 
     document.querySelectorAll('.item').forEach(item => {
 
