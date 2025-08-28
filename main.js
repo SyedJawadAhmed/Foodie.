@@ -17,7 +17,8 @@ const closeBtn = document.querySelector('.Close-btn');
 const cardList = document.querySelector('.card-list');
 const cartList = document.querySelector('.cart-list');
 const cartTotal = document.querySelector('.cart-total');
-
+const cartValue = document.querySelector('.cart-value');
+const hamburger = document.querySelector('.hamburger');
 
 cartIcon.addEventListener("click", () => cartTab.classList.add('cart-tab-active'));
 closeBtn.addEventListener("click", () => cartTab.classList.remove('cart-tab-active'));
@@ -38,6 +39,7 @@ const updateTotals = () => {
     });
 
     cartTotal.textContent = `$${totalPrice.toFixed(2)}`;
+    cartValue.textContent = totalQuantity;
 };
 
 
