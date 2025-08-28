@@ -19,10 +19,12 @@ const cartList = document.querySelector('.cart-list');
 const cartTotal = document.querySelector('.cart-total');
 const cartValue = document.querySelector('.cart-value');
 const hamburger = document.querySelector('.hamburger');
-const mobile🧈Menu = document.querySelector('.mobile-menu');
+const mobileMenu = document.querySelector('.mobile-menu');
+const bars = document.querySelectorAll('.fa-bars');
 
 cartIcon.addEventListener("click", () => cartTab.classList.add('cart-tab-active'));
 closeBtn.addEventListener("click", () => cartTab.classList.remove('cart-tab-active'));
+hamburger.addEventListener("click", () => mobileMenu.classList.toggle('mobile-menu-active'));
 
 let productList = [];
 let cartProduct = [];
