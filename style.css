@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "Acme", sans-serif;
     /* font-family: "Sansita", sans-serif; */
-    border: .2rem solid rgb(235, 8, 8);
+    /* border: .2rem solid rgb(235, 8, 8); */
 }
 
 
@@ -34,6 +34,7 @@ a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 li {
@@ -80,6 +81,9 @@ img {
 
 .mt-2 {
     margin-top: 2rem;
+}
+.mt-3 {
+    margin-top: rem;
 }
 
 .mt-4 {
