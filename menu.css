@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+    /* font-family: "Sansita", sans-serif; */
+    /* border: .2rem solid rgb(235, 8, 8); */
+}
+body {
+    background-color:hsl(44, 100%, 76%);
+    
+}
+
+/* Section Part */
+.hero-part {
+    min-height: calc(40vh - 10vh);
+}
+.desc {
+    flex: 1;
+    flex-basis: 300px;
+}
+.desc h4 {
+    font-size: 2rem;
+    color: hsl(0, 0%, 8%);
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
